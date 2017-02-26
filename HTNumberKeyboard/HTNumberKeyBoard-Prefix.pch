@@ -1,0 +1,15 @@
+//
+//  HTPasswordBox-Prefix.pch
+//  HTNumberKeyboard
+//
+//  Created by 一米阳光 on 17/2/25.
+//  Copyright © 2017年 一米阳光. All rights reserved.
+//
+
+#ifndef HTNumberKeyBoard_Prefix_pch
+#define HTNumberKeyBoard_Prefix_pch
+#define HTScreen [HTScreenAdaptation adapterMultipleByWidth]
+#define HTWidth  [UIScreen mainScreen].bounds.size.width
+#define HTHeight [UIScreen mainScreen].bounds.size.height
+
+#endif
