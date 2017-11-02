@@ -264,6 +264,8 @@
 				TargetAttributes = {
 					BDC9C1C41E61CDB9007EAB58 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VLU75N2FWS;
+						ProvisioningStyle = Manual;
 					};
 					BDC9C1DD1E61CDBA007EAB58 = {
 						CreatedOnToolsVersion = 7.3;
@@ -475,12 +477,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianjin Reapal Network Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tianjin Reapal Network Co., Ltd";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VLU75N2FWS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTNumberKeyboard/HTNumberKeyBoard-Prefix.pch";
 				INFOPLIST_FILE = HTNumberKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTNumberKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reapal.spay.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c5dc714d-112a-486f-aa63-b84ef867a1a8";
+				PROVISIONING_PROFILE_SPECIFIER = "TestApp Profile";
 			};
 			name = Debug;
 		};
@@ -488,12 +496,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tianjin Reapal Network Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tianjin Reapal Network Co., Ltd";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VLU75N2FWS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTNumberKeyboard/HTNumberKeyBoard-Prefix.pch";
 				INFOPLIST_FILE = HTNumberKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTNumberKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reapal.spay.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c5dc714d-112a-486f-aa63-b84ef867a1a8";
+				PROVISIONING_PROFILE_SPECIFIER = "TestApp Profile";
 			};
 			name = Release;
 		};
